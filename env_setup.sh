@@ -15,7 +15,6 @@ echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bashrc   # Add poetry to PATH 
 source ~/.bashrc                                           # reload .bashrc so poetry is present
 
 
-
 #########################
 # Install Docker
 #########################
@@ -29,7 +28,6 @@ sudo systemctl start docker                           # start docker
 sudo systemctl enable docker                          # start docker every time the instance boots
 
 
-
 #########################
 # Install kubernetes
 #########################
@@ -38,7 +36,6 @@ curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stabl
 chmod +x kubectl # Make it executable
 sudo mv kubectl /usr/local/bin/ # Move it to your local bin
  
-
 
 #########################
 # Install Minikube
@@ -49,12 +46,13 @@ chmod +x minikube # Make it executable
 sudo mv minikube /usr/local/bin/ # Move it to your local bin
 
 
-
 #########################
 # Install jq
 #########################
 sudo apt install jq
 
 
-
+#########################
+# FINISH!!!!!!!!!!!!!!!!!
+#########################
 echo "NOW RESTART THIS INSTANCE SO CHANGES CAN BE ENACTED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
