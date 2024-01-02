@@ -46,4 +46,10 @@ Scripts useful for setting up an Ubuntu-based GCP instance with basic Poetry/Doc
 
 # Section 3: ML Maintenance
 
-26. 
+26. **Data Acquisition**
+27. **Feature Store**
+28. **Training**
+29. **Model Store**
+30. **Metrics**
+31. **Drift Detection**
+32. **Retraining / Redeployment**
